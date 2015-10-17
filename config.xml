@@ -16,7 +16,7 @@
     <author href="http://getguzzle.com" email="wim@getguzzle.com">
         Guzzle Team
     </author>
-
+ <content src="www/index.html" />
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
@@ -66,9 +66,9 @@
        <param name="APP_ID" value="756110871177634" />
        <param name="APP_NAME" value="Guzzle" />
    </gap:plugin>
-   <icon src="icon.png" />
-    <icon src="icon-57.png" gap:platform="ios" width="57" height="57" />
-    <icon src="icon-72.png" gap:platform="ios" width="72" height="72" />
+   <icon src="www/icon.png" />
+    <icon src="www/icon-57.png" gap:platform="ios" width="57" height="57" />
+    <icon src="www/icon-72.png" gap:platform="ios" width="72" height="72" />
     <access origin="*"/>
 
 </widget>
