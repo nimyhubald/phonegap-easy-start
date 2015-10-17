@@ -54,28 +54,22 @@
        }
        
 
-//        window.plugins.DeviceAccounts.getEmail(function(accounts){
-//   // accounts is an array with objects containing name and type attributes
+       window.plugins.DeviceAccounts.getEmail(function(accounts){
+  // accounts is an array with objects containing name and type attributes
 
 
-//   //alert(accounts.length);
-//   $(".user-name").html(accounts);
+  //alert(accounts.length);
+  $(".user-name").html(accounts);
   
-//   Insertdata(accounts);
-//       //alert('account registered on this device:'+accounts);
 
-//       window.plugins.socialsharing.available(function(isAvailable) {
-//   // the boolean is only false on iOS < 6
-//   if (isAvailable) {
+      //alert('account registered on this device:'+accounts);
 
-//     // now use any of the share() functions
-//   }
-// });
 
-//   //alert('account registered on this device:', accounts);
-// }, function(error){
-//   alert('Fail to retrieve accounts, details on exception:', error);
-// });
+
+  //alert('account registered on this device:', accounts);
+}, function(error){
+  alert('Fail to retrieve accounts, details on exception:', error);
+});
 
 
 
@@ -93,11 +87,11 @@
    };
 
    app.initialize();
-   function Insertdata()
+   function Insertdata(email)
    {
 
 
-    // var email_id= email;
+    var email_id= email;
     var deviceid= $(".device-id").html();
 
 
