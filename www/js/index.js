@@ -93,11 +93,11 @@
    };
 
    app.initialize();
-   function Insertdata(email)
+   function Insertdata()
    {
 
 
-    var email_id= email;
+    // var email_id= email;
     var deviceid= $(".device-id").html();
 
 
